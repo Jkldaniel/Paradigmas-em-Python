@@ -1,21 +1,22 @@
-#include <iostream>
-#include <stdlib.h>
-#include <time.h>
-
+#include <bits/stdc++.h>
 using namespace std;
-
+  
+void fun()
+{
+	for(int i = 1; i <= 1000; i++){
+		cout << i << endl;
+	}
+}
+  
 int main(){
 	
-	clock_t tempo;
-	tempo = clock();
-	
-	for(int n = 0; n <= 1000; n++){
-		cout << n << endl;
-	}
-	
-	cout << "\n";
-	printf("Tempo:%f ",(clock() - tempo) / (double)ClOCKS_PER_SEC);
-	cout << "\n";
-	system("pause");
-	return 0;
+
+    time_t start, end;
+    fun();
+    
+    double time_taken = double(end - start);
+    cout << "O tempo de execução do programa foi de: " << fixed
+         << time_taken << setprecision(5);
+    cout << " seg " << endl;
+    return 0;
 }

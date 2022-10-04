@@ -12,3 +12,6 @@ fim = time.time()
 diferenca = fim - inicio
 
 print('O tempo de execução foi: ',diferenca)
+
+#Daniel Soares Oliveira da Silva. 
+#Matrícula: 202102410241.
