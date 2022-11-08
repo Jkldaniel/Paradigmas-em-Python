@@ -1,0 +1,22 @@
+O módulo "math" é capaz de realizar as operações sem a necessidade de expessar o cálculo no código, as funções mais simples, como soma(), subtracao(), multiplicacao() e a divisao() podem ser expressadas normalmente.
+
+Já para as operações mais complexas, como raiz_quadrada(), potenciação(), seno(), cosseno() e tangente() são utilizadas as funções abaixo para retornar o valor direto.
+
+math.exp(x)
+Retorna a exponenciação do número.
+
+math.isqrt(n)
+Retorna a raiz quadrada do número
+
+math.sin(x)
+Retorna o seno do ângulo.
+
+math.cos(x)
+Retorna o coseno do ângulo.
+
+math.tan(x)
+Retorna a tangente do ângulo.
+
+Alguns exemplos no código.
+
+
